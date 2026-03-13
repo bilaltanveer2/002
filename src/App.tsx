@@ -64,9 +64,7 @@ function AppShell() {
               </NavLink>
             </nav>
             <div className="nav__cta">
-              <NavLink to="/admin" onClick={closeMenu} className="btn btn--ghost" style={{ opacity: 0.8, borderColor: 'rgba(56, 189, 248, 0.3)' }}>
-                Admin Login
-              </NavLink>
+              
               <NavLink to="/blog" onClick={closeMenu} className="btn btn--ghost">
                 Insights
               </NavLink>
